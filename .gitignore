@@ -1,0 +1,10 @@
+## Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+
+## Visual Studio cache / folders
+.vs/
+.vscode/

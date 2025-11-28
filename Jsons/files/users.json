@@ -1,0 +1,22 @@
+{
+    "Users": [
+        {
+            "Name": "John Doe",
+            "Age": 30,
+            "Gender": "Male",
+            "Email": "john.doe@example.com"
+        },
+        {
+            "Name": "Jane Smith",
+            "Age": 25,
+            "Gender": "Female",
+            "Email": "jane.smith@example.com"
+        },
+        {
+            "Name": "Alex Johnson",
+            "Age": 40,
+            "Gender": null,
+            "Email": null
+        }
+    ]
+}

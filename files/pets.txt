@@ -1,0 +1,5 @@
+Dog,Max,5
+Cat,Luna,3
+Parrot,Kiwi,2
+Rabbit,Bunny,1
+Fish,Nemo,1
