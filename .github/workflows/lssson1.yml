@@ -2,15 +2,25 @@ name: bakir
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, dev ]
 
 jobs:
-  ime-posla:
-    runs-on: ubuntu-latest
+    ime-posla:
+        runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+        steps:
+        - uses: actions/checkout@v4
 
-      - name: list-files
-        run: ls -la
+        - name: list-files
+          run: ls -la
 
+    ime-drugog-posla:
+        runs-on: ubuntu-latest
+
+        steps:
+        - uses: actions/checkout@v4
+
+        - name: print
+          run: echo "Lint ok"
+
+        
